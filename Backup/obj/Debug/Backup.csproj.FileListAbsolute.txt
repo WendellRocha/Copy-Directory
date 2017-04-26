@@ -1,0 +1,13 @@
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\bin\Debug\Backup.exe.config
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\bin\Debug\Backup.exe.manifest
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\bin\Debug\Backup.application
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\bin\Debug\Backup.exe
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\bin\Debug\Backup.pdb
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.Form1.resources
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.Properties.Resources.resources
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.csproj.GenerateResource.Cache
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.TrustInfo.xml
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.exe.manifest
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.application
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.exe
+C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Debug\Backup.pdb
