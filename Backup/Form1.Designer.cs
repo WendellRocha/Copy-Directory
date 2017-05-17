@@ -89,7 +89,7 @@
             // 
             // iniciarBackup
             // 
-            this.iniciarBackup.Location = new System.Drawing.Point(357, 127);
+            this.iniciarBackup.Location = new System.Drawing.Point(357, 123);
             this.iniciarBackup.Name = "iniciarBackup";
             this.iniciarBackup.Size = new System.Drawing.Size(75, 23);
             this.iniciarBackup.TabIndex = 10;
@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 179);
+            this.ClientSize = new System.Drawing.Size(452, 160);
             this.Controls.Add(this.retorno);
             this.Controls.Add(this.iniciarBackup);
             this.Controls.Add(this.label2);

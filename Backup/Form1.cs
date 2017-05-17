@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
-using System.ComponentModel;
 using Microsoft.VisualBasic.FileIO;
 
 namespace Backup {
