@@ -16,7 +16,7 @@ namespace Backup {
         }
 
         private void Form1_Load(object sender, EventArgs e) {
-            progressBar1.Enabled = false;
+
         }
 
         private void abrirCaminho_Click(object sender, EventArgs e) {
@@ -42,8 +42,6 @@ namespace Backup {
             iniciarBackup.Enabled = false;
             retorno.Text = "Processando...";
             backgroundWorker1.RunWorkerAsync();
-            //CopyDirectory(caminho, destino, true);
-            //FileSystem.CopyDirectory(caminho, destino, UIOption.AllDialogs);
         }
 
         private void CopyDirectory(string source, string dest, bool copySubsDirs) {
