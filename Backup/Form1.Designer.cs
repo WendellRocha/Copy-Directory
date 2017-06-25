@@ -33,6 +33,8 @@
             this.iniciarBackup = new System.Windows.Forms.Button();
             this.selecionarDestino = new System.Windows.Forms.FolderBrowserDialog();
             this.retorno = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // abrirCaminho
@@ -105,11 +107,27 @@
             this.retorno.Size = new System.Drawing.Size(0, 13);
             this.retorno.TabIndex = 13;
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 126);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(307, 23);
+            this.progressBar1.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(452, 179);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.retorno);
             this.Controls.Add(this.iniciarBackup);
             this.Controls.Add(this.label2);
@@ -138,6 +156,8 @@
         private System.Windows.Forms.Button iniciarBackup;
         private System.Windows.Forms.FolderBrowserDialog selecionarDestino;
         private System.Windows.Forms.Label retorno;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
