@@ -35,6 +35,7 @@
             this.retorno = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.report = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // abrirCaminho
@@ -122,11 +123,20 @@
             this.progressBar1.Size = new System.Drawing.Size(307, 23);
             this.progressBar1.TabIndex = 14;
             // 
+            // report
+            // 
+            this.report.AutoSize = true;
+            this.report.Location = new System.Drawing.Point(321, 131);
+            this.report.Name = "report";
+            this.report.Size = new System.Drawing.Size(0, 13);
+            this.report.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 179);
+            this.ClientSize = new System.Drawing.Size(446, 174);
+            this.Controls.Add(this.report);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.retorno);
             this.Controls.Add(this.iniciarBackup);
@@ -158,6 +168,7 @@
         private System.Windows.Forms.Label retorno;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label report;
     }
 }
 
