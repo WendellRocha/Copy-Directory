@@ -11,3 +11,17 @@ C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Release\Backup.e
 C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Release\Backup.application
 C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Release\Backup.exe
 C:\Users\wende\Documents\GitHub\playground\C#\Backup\Backup\obj\Release\Backup.pdb
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\bin\Release\Backup.exe.config
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\bin\Release\Backup.exe.manifest
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\bin\Release\Backup.application
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\bin\Release\Backup.exe
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\bin\Release\Backup.pdb
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.Form1.resources
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.Properties.Resources.resources
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.csproj.GenerateResource.Cache
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.csproj.CoreCompileInputs.cache
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.TrustInfo.xml
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.exe.manifest
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.application
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.exe
+C:\Users\Wendell\Documents\GitHub\Copy-Directory\Backup\obj\Release\Backup.pdb

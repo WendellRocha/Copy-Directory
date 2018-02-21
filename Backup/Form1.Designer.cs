@@ -23,6 +23,7 @@
         /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.abrirCaminho = new System.Windows.Forms.Button();
             this.abrirDestino = new System.Windows.Forms.Button();
             this.caminhoDoArquivo = new System.Windows.Forms.TextBox();
@@ -36,11 +37,14 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.report = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.inverter = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // abrirCaminho
             // 
-            this.abrirCaminho.Location = new System.Drawing.Point(357, 40);
+            this.abrirCaminho.Location = new System.Drawing.Point(357, 39);
             this.abrirCaminho.Name = "abrirCaminho";
             this.abrirCaminho.Size = new System.Drawing.Size(75, 23);
             this.abrirCaminho.TabIndex = 3;
@@ -50,7 +54,7 @@
             // 
             // abrirDestino
             // 
-            this.abrirDestino.Location = new System.Drawing.Point(357, 85);
+            this.abrirDestino.Location = new System.Drawing.Point(357, 84);
             this.abrirDestino.Name = "abrirDestino";
             this.abrirDestino.Size = new System.Drawing.Size(75, 23);
             this.abrirDestino.TabIndex = 4;
@@ -60,14 +64,14 @@
             // 
             // caminhoDoArquivo
             // 
-            this.caminhoDoArquivo.Location = new System.Drawing.Point(12, 42);
+            this.caminhoDoArquivo.Location = new System.Drawing.Point(12, 41);
             this.caminhoDoArquivo.Name = "caminhoDoArquivo";
             this.caminhoDoArquivo.Size = new System.Drawing.Size(307, 20);
             this.caminhoDoArquivo.TabIndex = 5;
             // 
             // destinoDoArquivo
             // 
-            this.destinoDoArquivo.Location = new System.Drawing.Point(12, 85);
+            this.destinoDoArquivo.Location = new System.Drawing.Point(12, 84);
             this.destinoDoArquivo.Name = "destinoDoArquivo";
             this.destinoDoArquivo.Size = new System.Drawing.Size(307, 20);
             this.destinoDoArquivo.TabIndex = 6;
@@ -75,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Location = new System.Drawing.Point(12, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 8;
@@ -84,7 +88,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 26);
+            this.label1.Location = new System.Drawing.Point(17, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 7;
@@ -92,7 +96,7 @@
             // 
             // iniciarBackup
             // 
-            this.iniciarBackup.Location = new System.Drawing.Point(357, 127);
+            this.iniciarBackup.Location = new System.Drawing.Point(357, 126);
             this.iniciarBackup.Name = "iniciarBackup";
             this.iniciarBackup.Size = new System.Drawing.Size(75, 23);
             this.iniciarBackup.TabIndex = 10;
@@ -103,7 +107,7 @@
             // retorno
             // 
             this.retorno.AutoSize = true;
-            this.retorno.Location = new System.Drawing.Point(12, 157);
+            this.retorno.Location = new System.Drawing.Point(12, 156);
             this.retorno.Name = "retorno";
             this.retorno.Size = new System.Drawing.Size(0, 13);
             this.retorno.TabIndex = 13;
@@ -118,7 +122,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 126);
+            this.progressBar1.Location = new System.Drawing.Point(12, 125);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(307, 23);
             this.progressBar1.TabIndex = 14;
@@ -126,16 +130,36 @@
             // report
             // 
             this.report.AutoSize = true;
-            this.report.Location = new System.Drawing.Point(321, 131);
+            this.report.Location = new System.Drawing.Point(321, 130);
             this.report.Name = "report";
             this.report.Size = new System.Drawing.Size(0, 13);
             this.report.TabIndex = 15;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inverter});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(446, 25);
+            this.toolStrip1.TabIndex = 16;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // inverter
+            // 
+            this.inverter.Image = ((System.Drawing.Image)(resources.GetObject("inverter.Image")));
+            this.inverter.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.inverter.Name = "inverter";
+            this.inverter.Size = new System.Drawing.Size(67, 22);
+            this.inverter.Text = "Inverter";
+            this.inverter.Click += new System.EventHandler(this.inverter_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(446, 174);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.report);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.retorno);
@@ -149,6 +173,8 @@
             this.Name = "Form1";
             this.Text = "Backup";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +195,8 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label report;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton inverter;
     }
 }
 
